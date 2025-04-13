@@ -125,10 +125,10 @@ touch ~/.config/cursor-updater
 #### Muammo 1: Sinov hisob qaydnomasi cheklovi <p align="right"><a href="#issue1"><img src="https://img.shields.io/badge/Yechimga%20o'tish-Blue?style=plastic" alt="Back To Top"></a></p>
 
 ```text
-Ushbu kompyuterda foydalanilgan bepul sinov hisob qaydnomalari juda ko'p.
-Iltimos, pro versiyaga yangilang. Suiiste'molliklarni oldini olish uchun 
-bu cheklovni joriy qilganmiz. Agar bu xato deb o'ylasangiz, iltimos, 
-bizga xabar bering.
+Too many free trial accounts used on this machine.
+Please upgrade to pro. We have this limit in place
+to prevent abuse. Please let us know if you believe
+this is a mistake.
 ```
 
 #### Muammo 2: API kalit cheklovi <p align="right"><a href="#issue2"><img src="https://img.shields.io/badge/Yechimga%20o'tish-green?style=plastic" alt="Back To Top"></a></p>
@@ -136,9 +136,11 @@ bizga xabar bering.
 ```text
 [Yangi muammo]
 
-Composer maxsus modellarga tayanadi, ular API kalitiga hisoblanmaydi.
-Iltimos, API kalitlarini o'chirib qo'ying va Pro yoki Business obunasidan foydalaning.
-So'rov ID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+[New Issue]
+
+Composer relies on custom models that cannot be billed to an API key.
+Please disable API keys and use a Pro or Business subscription.
+Request ID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
 
 #### Muammo 3: Sinov so'rovlari cheklovi
@@ -146,16 +148,15 @@ So'rov ID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 > Bu VIP bepul sinov davri mobaynida foydalanish chekloviga yetganingizni ko'rsatadi:
 
 ```text
-Siz sinov so'rovlari chekloviga yetdingiz.
+You've reached your trial request limit.
 ```
 
 #### Muammo 4: Claude 3.7 yuqori yuk <p align="right"><a href="#issue4"><img src="https://img.shields.io/badge/Yechimga%20o'tish-purple?style=plastic" alt="Back To Top"></a></p>
 
 ```text
-Yuqori yuk
-Hozirda Claude 3.7 Sonnet uchun yuqori talab kuzatilmoqda. Iltimos, Pro versiyaga yangilang 
-yoki 'standart' model, Claude 3.5 sonnet, boshqa modelga o'ting, yoki bir necha daqiqadan 
-so'ng qayta urinib ko'ring.
+High Load 
+We're experiencing high demand for Claude 3.7 Sonnet right now. Please upgrade to Pro, or switch to the
+'default' model, Claude 3.5 sonnet, another model, or try again in a few moments.
 ```
 
 <br>
